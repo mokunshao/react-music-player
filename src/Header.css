@@ -1,0 +1,16 @@
+header {
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+  background-color: #007ee5;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+header img{
+  width: 50px;
+  vertical-align: bottom;
+}
