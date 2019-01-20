@@ -38,7 +38,8 @@ class Player extends Component {
         }));
       }
       this.setState(() => ({
-        playing: true
+        playing: true,
+        progress: 0
       }));
     };
     this.playNext = () => {
@@ -52,7 +53,8 @@ class Player extends Component {
         }));
       }
       this.setState(() => ({
-        playing: true
+        playing: true,
+        progress: 0
       }));
     };
     this.setProgress = e => {
