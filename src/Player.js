@@ -9,11 +9,6 @@ class Player extends Component {
       playing: false,
       volume: 0.5,
       currentId: 0,
-      playList: [
-        { id: 0, title: "歌曲1", artist: "小明", url: "1.mp3", img: "a.png" },
-        { id: 1, title: "歌曲2", artist: "小红", url: "2.mp3", img: "b.png" },
-        { id: 2, title: "歌曲3", artist: "小林", url: "3.mp3", img: "c.png" }
-      ],
       progress: 0,
       loop: false,
       played: 0,
@@ -30,7 +25,7 @@ class Player extends Component {
     this.playPre = () => {
       if (this.state.currentId - 1 < 0) {
         this.setState(state => ({
-          currentId: state.playList.length - 1
+          currentId: props.playList.length - 1
         }));
       } else {
         this.setState(state => ({
@@ -43,7 +38,7 @@ class Player extends Component {
       }));
     };
     this.playNext = () => {
-      if (this.state.currentId + 1 >= this.state.playList.length) {
+      if (this.state.currentId + 1 >= this.props.playList.length) {
         this.setState(state => ({
           currentId: 0
         }));
@@ -74,7 +69,7 @@ class Player extends Component {
           height="0"
           width="0"
           ref="player"
-          url={this.state.playList[this.state.currentId].url}
+          url={this.props.playList[this.state.currentId].url}
           playing={this.state.playing}
           volume={this.state.volume}
           onProgress={() => {
@@ -93,10 +88,10 @@ class Player extends Component {
         <section className="playerMain">
           <section className="playerLeft">
             <div className="title">
-              {this.state.playList[this.state.currentId].title}
+              {this.props.playList[this.state.currentId].title}
             </div>
             <div className="artist">
-              {this.state.playList[this.state.currentId].artist}
+              {this.props.playList[this.state.currentId].artist}
             </div>
             <div className="volumeControl">
               <svg className="icon" aria-hidden="true">
@@ -162,7 +157,7 @@ class Player extends Component {
           </section>
           <section>
             <img
-              src={this.state.playList[this.state.currentId].img}
+              src={this.props.playList[this.state.currentId].img}
               alt="cover"
             />
           </section>

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "title": "歌曲1",
+    "artist": "小明",
+    "url": "1.mp3",
+    "img": "a.png"
+  },
+  {
+    "id": 1,
+    "title": "歌曲2",
+    "artist": "小红",
+    "url": "2.mp3",
+    "img": "b.png"
+  },
+  {
+    "id": 2,
+    "title": "歌曲3",
+    "artist": "小林",
+    "url": "3.mp3",
+    "img": "c.png"
+  }
+]
