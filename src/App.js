@@ -8,7 +8,7 @@ class App extends Component {
     super(props);
     this.state = {};
     this.componentDidMount=()=>{
-      fetch("/data.json").then(res => {
+      fetch("data.json").then(res => {
         if (res.ok) {
           res.json().then(data => {
             this.setState({ playList: data });

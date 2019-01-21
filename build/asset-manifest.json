@@ -1,7 +1,7 @@
 {
   "main.css": "/react-music-player/build/static/css/main.ec95232a.chunk.css",
-  "main.js": "/react-music-player/build/static/js/main.4c799ff8.chunk.js",
-  "main.js.map": "/react-music-player/build/static/js/main.4c799ff8.chunk.js.map",
+  "main.js": "/react-music-player/build/static/js/main.559ef6dd.chunk.js",
+  "main.js.map": "/react-music-player/build/static/js/main.559ef6dd.chunk.js.map",
   "static/js/1.7385d732.chunk.js": "/react-music-player/build/static/js/1.7385d732.chunk.js",
   "static/js/1.7385d732.chunk.js.map": "/react-music-player/build/static/js/1.7385d732.chunk.js.map",
   "runtime~main.js": "/react-music-player/build/static/js/runtime~main.44546f97.js",
@@ -9,6 +9,6 @@
   "static/media/logo.svg": "/react-music-player/build/static/media/logo.cd2fd5e7.svg",
   "static/css/main.ec95232a.chunk.css.map": "/react-music-player/build/static/css/main.ec95232a.chunk.css.map",
   "index.html": "/react-music-player/build/index.html",
-  "precache-manifest.d2ebe6adb7abffc9b9402aebdcc8403d.js": "/react-music-player/build/precache-manifest.d2ebe6adb7abffc9b9402aebdcc8403d.js",
+  "precache-manifest.18abc07842eff8d0c20ad19ee8b4d40d.js": "/react-music-player/build/precache-manifest.18abc07842eff8d0c20ad19ee8b4d40d.js",
   "service-worker.js": "/react-music-player/build/service-worker.js"
 }
