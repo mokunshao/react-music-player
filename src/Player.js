@@ -24,9 +24,9 @@ class Player extends Component {
     };
     this.playPre = () => {
       if (this.state.currentId - 1 < 0) {
-        this.setState(state => ({
-          currentId: props.playList.length - 1
-        }));
+        this.setState({
+          currentId: this.props.playList.length - 1
+        });
       } else {
         this.setState(state => ({
           currentId: state.currentId - 1
@@ -39,9 +39,9 @@ class Player extends Component {
     };
     this.playNext = () => {
       if (this.state.currentId + 1 >= this.props.playList.length) {
-        this.setState(state => ({
+        this.setState({
           currentId: 0
-        }));
+        });
       } else {
         this.setState(state => ({
           currentId: state.currentId + 1

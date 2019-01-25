@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/react-music-player/build/static/js/runtime~main.44546f97.js"
   },
   {
-    "revision": "559ef6ddc38d6529967a",
-    "url": "/react-music-player/build/static/js/main.559ef6dd.chunk.js"
+    "revision": "a4035bc4fb7901d8f89f",
+    "url": "/react-music-player/build/static/js/main.a4035bc4.chunk.js"
   },
   {
     "revision": "7385d73220528cdc181e",
     "url": "/react-music-player/build/static/js/1.7385d732.chunk.js"
   },
   {
-    "revision": "559ef6ddc38d6529967a",
+    "revision": "a4035bc4fb7901d8f89f",
     "url": "/react-music-player/build/static/css/main.ec95232a.chunk.css"
   },
   {
-    "revision": "a48d689179dce79b8a6e51f9bc5353f4",
+    "revision": "29803d3b1e99c2b7a639a33ddede863d",
     "url": "/react-music-player/build/index.html"
   }
 ];
